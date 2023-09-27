@@ -1,0 +1,23 @@
+:root {
+    --white-color: #fff;
+}
+
+.wrapper {
+    background-color: #562222;
+}
+
+/* Header css test */
+
+.header__nav__item_child--separate::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 24px;
+    background-color: var(--white-color);
+    top: 50%;
+    right: -9px;
+    transform: translateY(-50%);
+    margin: 0 8px;
+  }
+    
